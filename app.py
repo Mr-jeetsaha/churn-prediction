@@ -65,7 +65,7 @@ prediction=model.predict(input_data_scaled)
 prediction_prob=prediction[0][0]
 
 if st.button('Predict'):
-    st.write(f'Churn probability:{prediction_prob:4f}')
+    st.write(f'Churn probability:{prediction_prob:.4f}')
     
     if prediction_prob>0.5:
         st.write("The customer is likely to churn")
