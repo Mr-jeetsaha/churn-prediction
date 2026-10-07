@@ -5,3 +5,9 @@
 !requirements.txt
 !app.py
 !prediction.ipynb
+!label_encoder_gender.pkl
+!onehot_encoder_geo.pkl
+!model.h5
+!churn_icon.jpg
+!churn_modelling.csv
+!scaler.pkl
